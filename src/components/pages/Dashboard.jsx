@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 import DashboardStats from "@/components/organisms/DashboardStats";
 import RecentApplications from "@/components/organisms/RecentApplications";
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/atoms/Card";
@@ -10,6 +11,7 @@ import { applicationService } from "@/services/api/applicationService";
 import { motion } from "framer-motion";
 
 const Dashboard = () => {
+  const navigate = useNavigate();
   const [stats, setStats] = useState({
     activeApplications: 0,
     totalApplications: 0,
@@ -83,7 +85,7 @@ const Dashboard = () => {
                 Track your job applications and career progress
               </p>
             </div>
-            <Button>
+<Button onClick={() => navigate('/jobs')}>
               <ApperIcon name="Plus" className="h-4 w-4 mr-2" />
               Apply to More Jobs
             </Button>

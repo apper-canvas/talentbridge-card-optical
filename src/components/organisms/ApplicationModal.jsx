@@ -6,6 +6,13 @@ import ApperIcon from "@/components/ApperIcon";
 import { applicationService } from "@/services/api/applicationService";
 import { toast } from "react-toastify";
 
+// Initialize ApperClient for Edge function calls
+const { ApperClient } = window.ApperSDK;
+const apperClient = new ApperClient({
+  apperProjectId: import.meta.env.VITE_APPER_PROJECT_ID,
+  apperPublicKey: import.meta.env.VITE_APPER_PUBLIC_KEY
+});
+
 const ApplicationModal = ({ job, isOpen, onClose, onSuccess }) => {
   const [formData, setFormData] = useState({
     candidateName: "",
@@ -69,7 +76,33 @@ const ApplicationModal = ({ job, isOpen, onClose, onSuccess }) => {
       };
 
       await applicationService.create(applicationData);
-      toast.success("Application submitted successfully!");
+toast.success("Application submitted successfully!");
+      
+      // Send SMS notification after successful application
+      try {
+        const smsResult = await apperClient.functions.invoke(import.meta.env.VITE_SEND_SMS_NOTIFICATION, {
+          body: JSON.stringify({
+            phoneNumber: applicationData.candidate_phone_c,
+            candidateName: applicationData.candidate_name_c,
+            jobTitle: job.title_c,
+            company: job.company_c
+          }),
+          headers: {
+            'Content-Type': 'application/json'
+          }
+        });
+
+        if (smsResult.success) {
+          toast.success("SMS confirmation sent to your phone!");
+        } else {
+          console.info(`apper_info: An error was received in this function: ${import.meta.env.VITE_SEND_SMS_NOTIFICATION}. The response body is: ${JSON.stringify(smsResult)}.`);
+          toast.info("Application submitted successfully, but SMS notification could not be sent.");
+        }
+      } catch (smsError) {
+        console.info(`apper_info: An error was received in this function: ${import.meta.env.VITE_SEND_SMS_NOTIFICATION}. The error is: ${smsError.message}`);
+        toast.info("Application submitted successfully, but SMS notification could not be sent.");
+      }
+      
       onSuccess();
       onClose();
       

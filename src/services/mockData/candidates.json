@@ -1,0 +1,62 @@
+[
+  {
+    "Id": 1,
+    "name": "John Smith",
+    "email": "john.smith@email.com",
+    "phone": "555-0123",
+    "location": "San Francisco, CA",
+    "experience": "senior",
+    "skills": ["JavaScript", "React", "Node.js", "Python", "AWS", "Docker"],
+    "resumeUrl": "resumes/john_smith_resume.pdf",
+    "profileComplete": true,
+    "bio": "Experienced full-stack developer with a passion for building scalable web applications. I have 6+ years of experience working with modern technologies and leading development teams."
+  },
+  {
+    "Id": 2,
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "555-0124",
+    "location": "New York, NY",
+    "experience": "mid",
+    "skills": ["Digital Marketing", "SEO", "Google Analytics", "Social Media", "Content Strategy"],
+    "resumeUrl": "resumes/sarah_johnson_resume.pdf",
+    "profileComplete": true,
+    "bio": "Creative marketing professional with 4 years of experience driving growth through innovative digital marketing strategies and data-driven campaigns."
+  },
+  {
+    "Id": 3,
+    "name": "Michael Chen",
+    "email": "michael.chen@email.com",
+    "phone": "555-0125",
+    "location": "Remote",
+    "experience": "entry",
+    "skills": ["Python", "SQL", "Tableau", "Excel", "Statistics"],
+    "resumeUrl": "resumes/michael_chen_resume.pdf",
+    "profileComplete": false,
+    "bio": "Recent data science graduate eager to apply analytical skills to solve real-world business problems. Strong foundation in statistical analysis and data visualization."
+  },
+  {
+    "Id": 4,
+    "name": "Emily Rodriguez",
+    "email": "emily.rodriguez@email.com",
+    "phone": "555-0126",
+    "location": "Los Angeles, CA",
+    "experience": "mid",
+    "skills": ["Figma", "Sketch", "User Research", "Prototyping", "HTML/CSS"],
+    "resumeUrl": "resumes/emily_rodriguez_resume.pdf",
+    "profileComplete": true,
+    "bio": "UX/UI designer with 3 years of experience creating user-centered designs that balance business goals with user needs. Passionate about accessible and inclusive design."
+  },
+  {
+    "Id": 5,
+    "name": "David Wilson",
+    "email": "david.wilson@email.com",
+    "phone": "555-0127",
+    "location": "Chicago, IL",
+    "experience": "entry",
+    "skills": ["Sales", "CRM", "Communication", "Negotiation", "Lead Generation"],
+    "resumeUrl": "resumes/david_wilson_resume.pdf",
+    "profileComplete": false,
+    "bio": "Motivated sales professional with 2 years of experience in B2B sales. Strong communication skills and track record of exceeding sales targets."
+  }
+]

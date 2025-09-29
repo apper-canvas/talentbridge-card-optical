@@ -1,0 +1,230 @@
+[
+  {
+    "Id": 1,
+    "title": "Senior Software Engineer",
+    "company": "TechCorp Solutions",
+    "location": "San Francisco, CA",
+    "type": "full-time",
+    "experience": "senior",
+    "salary": "$120,000 - $160,000",
+    "description": "We are seeking a Senior Software Engineer to join our innovative development team. You will be responsible for designing and implementing scalable web applications, mentoring junior developers, and contributing to architectural decisions.\n\nIn this role, you'll work with cutting-edge technologies and collaborate with cross-functional teams to deliver high-quality software solutions that impact millions of users worldwide.",
+    "requirements": [
+      "5+ years of experience in full-stack development",
+      "Proficiency in React, Node.js, and TypeScript",
+      "Experience with cloud platforms (AWS, GCP, or Azure)",
+      "Strong understanding of database design and optimization",
+      "Excellent communication and leadership skills"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-15T08:00:00Z"
+  },
+  {
+    "Id": 2,
+    "title": "Marketing Manager",
+    "company": "GrowthLabs Inc",
+    "location": "New York, NY",
+    "type": "full-time",
+    "experience": "mid",
+    "salary": "$80,000 - $110,000",
+    "description": "Join our dynamic marketing team as a Marketing Manager and drive our brand growth initiatives. You'll develop and execute comprehensive marketing strategies, manage digital campaigns, and analyze market trends to identify new opportunities.\n\nThis role offers the opportunity to work with a creative team and make a significant impact on our company's growth trajectory.",
+    "requirements": [
+      "3-5 years of marketing experience",
+      "Experience with digital marketing platforms",
+      "Strong analytical and project management skills",
+      "Bachelor's degree in Marketing or related field",
+      "Creative thinking and problem-solving abilities"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-14T10:30:00Z"
+  },
+  {
+    "Id": 3,
+    "title": "Data Analyst",
+    "company": "DataTech Analytics",
+    "location": "Remote",
+    "type": "remote",
+    "experience": "entry",
+    "salary": "$65,000 - $85,000",
+    "description": "We're looking for a passionate Data Analyst to join our remote team. You'll work with large datasets, create insightful visualizations, and provide data-driven recommendations to support business decisions.\n\nThis is an excellent opportunity for someone starting their career in data analytics to work with experienced professionals and grow their skills in a supportive environment.",
+    "requirements": [
+      "1-2 years of experience with data analysis",
+      "Proficiency in SQL, Python, or R",
+      "Experience with data visualization tools (Tableau, Power BI)",
+      "Strong attention to detail and analytical thinking",
+      "Bachelor's degree in Statistics, Mathematics, or related field"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-13T14:15:00Z"
+  },
+  {
+    "Id": 4,
+    "title": "UX/UI Designer",
+    "company": "DesignStudio Pro",
+    "location": "Los Angeles, CA",
+    "type": "full-time",
+    "experience": "mid",
+    "salary": "$85,000 - $115,000",
+    "description": "Join our creative team as a UX/UI Designer and help shape the future of digital experiences. You'll conduct user research, create wireframes and prototypes, and collaborate closely with developers to bring innovative designs to life.\n\nWe're looking for someone who is passionate about user-centered design and has a keen eye for detail and aesthetics.",
+    "requirements": [
+      "3-4 years of UX/UI design experience",
+      "Proficiency in design tools (Figma, Sketch, Adobe Creative Suite)",
+      "Experience with user research and testing methodologies",
+      "Strong portfolio demonstrating design thinking",
+      "Understanding of front-end development principles"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-12T09:45:00Z"
+  },
+  {
+    "Id": 5,
+    "title": "Sales Representative",
+    "company": "SalesForce Dynamics",
+    "location": "Chicago, IL",
+    "type": "full-time",
+    "experience": "entry",
+    "salary": "$50,000 - $70,000 + Commission",
+    "description": "We're seeking an enthusiastic Sales Representative to join our growing sales team. You'll be responsible for prospecting new clients, building relationships, and closing deals in a fast-paced environment.\n\nThis role offers excellent growth opportunities and the potential for significant earnings through our competitive commission structure.",
+    "requirements": [
+      "1-2 years of sales experience preferred",
+      "Excellent communication and interpersonal skills",
+      "Self-motivated with a results-driven approach",
+      "Experience with CRM software",
+      "Bachelor's degree preferred but not required"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-11T16:20:00Z"
+  },
+  {
+    "Id": 6,
+    "title": "DevOps Engineer",
+    "company": "CloudTech Solutions",
+    "location": "Seattle, WA",
+    "type": "full-time",
+    "experience": "senior",
+    "salary": "$130,000 - $170,000",
+    "description": "We're looking for an experienced DevOps Engineer to join our infrastructure team. You'll be responsible for managing our cloud infrastructure, implementing CI/CD pipelines, and ensuring system reliability and security.\n\nThis role requires someone who thrives in a collaborative environment and is passionate about automation and continuous improvement.",
+    "requirements": [
+      "5+ years of DevOps or infrastructure experience",
+      "Expertise in AWS, Docker, and Kubernetes",
+      "Experience with Infrastructure as Code (Terraform, CloudFormation)",
+      "Knowledge of monitoring and logging tools",
+      "Strong scripting skills in Python or Bash"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-10T11:00:00Z"
+  },
+  {
+    "Id": 7,
+    "title": "Product Manager",
+    "company": "InnovateTech",
+    "location": "Boston, MA",
+    "type": "full-time",
+    "experience": "senior",
+    "salary": "$140,000 - $180,000",
+    "description": "Join our product team as a Senior Product Manager and drive the strategy and execution of our flagship products. You'll work closely with engineering, design, and business teams to deliver products that delight our customers.\n\nThis role requires strong analytical skills, strategic thinking, and the ability to make data-driven decisions in a fast-paced startup environment.",
+    "requirements": [
+      "5+ years of product management experience",
+      "Experience with agile development methodologies",
+      "Strong analytical and problem-solving skills",
+      "Excellent communication and leadership abilities",
+      "Technical background preferred"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-09T13:30:00Z"
+  },
+  {
+    "Id": 8,
+    "title": "Frontend Developer",
+    "company": "WebCraft Agency",
+    "location": "Remote",
+    "type": "contract",
+    "experience": "mid",
+    "salary": "$75 - $95/hour",
+    "description": "We're seeking a talented Frontend Developer for a 6-month contract position to help build modern web applications. You'll work with our team to create responsive, user-friendly interfaces using the latest frontend technologies.\n\nThis is a great opportunity to work on diverse projects and expand your portfolio while working with a creative and supportive team.",
+    "requirements": [
+      "3+ years of frontend development experience",
+      "Expert-level proficiency in React and JavaScript",
+      "Experience with modern CSS frameworks (Tailwind, Styled Components)",
+      "Knowledge of testing frameworks (Jest, React Testing Library)",
+      "Strong attention to detail and design sensibilities"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-08T15:45:00Z"
+  },
+  {
+    "Id": 9,
+    "title": "Financial Analyst",
+    "company": "InvestPro Financial",
+    "location": "New York, NY",
+    "type": "full-time",
+    "experience": "entry",
+    "salary": "$70,000 - $90,000",
+    "description": "We're looking for a detail-oriented Financial Analyst to join our finance team. You'll be responsible for financial modeling, budget analysis, and supporting investment decisions with comprehensive financial research.\n\nThis role offers excellent learning opportunities and exposure to various aspects of financial analysis in a dynamic investment firm.",
+    "requirements": [
+      "1-2 years of financial analysis experience",
+      "Strong proficiency in Excel and financial modeling",
+      "Bachelor's degree in Finance, Economics, or Accounting",
+      "CFA Level 1 candidate preferred",
+      "Strong analytical and communication skills"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-07T12:15:00Z"
+  },
+  {
+    "Id": 10,
+    "title": "Content Marketing Specialist",
+    "company": "ContentCraft Media",
+    "location": "Austin, TX",
+    "type": "part-time",
+    "experience": "mid",
+    "salary": "$25 - $35/hour",
+    "description": "Join our content team as a part-time Content Marketing Specialist and help create engaging content that drives brand awareness and customer engagement. You'll develop content strategies, write compelling copy, and manage social media campaigns.\n\nThis flexible position is perfect for someone looking to balance work with other commitments while working on exciting marketing projects.",
+    "requirements": [
+      "2-4 years of content marketing experience",
+      "Excellent writing and editing skills",
+      "Experience with social media management",
+      "Knowledge of SEO best practices",
+      "Portfolio of published content"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-06T10:00:00Z"
+  },
+  {
+    "Id": 11,
+    "title": "Cybersecurity Specialist",
+    "company": "SecureNet Systems",
+    "location": "Washington, DC",
+    "type": "full-time",
+    "experience": "senior",
+    "salary": "$125,000 - $155,000",
+    "description": "We're seeking an experienced Cybersecurity Specialist to join our security team. You'll be responsible for implementing security protocols, conducting vulnerability assessments, and responding to security incidents.\n\nThis role requires someone with strong technical skills and the ability to stay current with emerging security threats and technologies.",
+    "requirements": [
+      "5+ years of cybersecurity experience",
+      "Security certifications (CISSP, CEH, or equivalent)",
+      "Experience with security tools and technologies",
+      "Knowledge of compliance frameworks (NIST, ISO 27001)",
+      "Strong problem-solving and incident response skills"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-05T14:30:00Z"
+  },
+  {
+    "Id": 12,
+    "title": "HR Coordinator",
+    "company": "PeopleFirst Solutions",
+    "location": "Denver, CO",
+    "type": "full-time",
+    "experience": "entry",
+    "salary": "$45,000 - $60,000",
+    "description": "Join our HR team as an HR Coordinator and support various human resources functions including recruitment, onboarding, and employee relations. You'll work closely with our HR team to ensure smooth operations and positive employee experiences.\n\nThis is an excellent opportunity for someone starting their career in human resources to gain exposure to all aspects of HR operations.",
+    "requirements": [
+      "1-2 years of HR or administrative experience",
+      "Bachelor's degree in HR, Business, or related field",
+      "Strong organizational and communication skills",
+      "Knowledge of HR software systems",
+      "Attention to detail and confidentiality"
+    ],
+    "status": "active",
+    "postedDate": "2024-01-04T09:15:00Z"
+  }
+]

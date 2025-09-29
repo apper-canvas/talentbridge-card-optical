@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "employerId": "1",
+    "jobTitle": "Senior Full Stack Developer",
+    "criteria": "Looking for experienced developers with 5+ years in React, Node.js, and cloud platforms. Must have leadership experience and strong communication skills.",
+    "requestDate": "2024-01-15T10:00:00Z",
+    "status": "completed",
+    "candidateCount": 5
+  },
+  {
+    "Id": 2,
+    "employerId": "2",
+    "jobTitle": "Digital Marketing Specialist",
+    "criteria": "Need someone with 2-4 years experience in digital marketing, proficient in Google Ads, Facebook Ads, and analytics platforms. Creative mindset required.",
+    "requestDate": "2024-01-14T14:30:00Z",
+    "status": "in-progress",
+    "candidateCount": 3
+  },
+  {
+    "Id": 3,
+    "employerId": "3",
+    "jobTitle": "Data Scientist",
+    "criteria": "Seeking data scientists with Python/R expertise, machine learning background, and experience with big data tools. PhD preferred but not required.",
+    "requestDate": "2024-01-13T09:15:00Z",
+    "status": "pending",
+    "candidateCount": 10
+  },
+  {
+    "Id": 4,
+    "employerId": "4",
+    "jobTitle": "Product Designer",
+    "criteria": "Looking for mid-level product designers with strong UX research skills, proficiency in design tools, and experience in mobile app design.",
+    "requestDate": "2024-01-12T16:45:00Z",
+    "status": "completed",
+    "candidateCount": 5
+  },
+  {
+    "Id": 5,
+    "employerId": "5",
+    "jobTitle": "Sales Manager",
+    "criteria": "Need experienced sales manager with team leadership experience, B2B sales background, and proven track record of exceeding targets.",
+    "requestDate": "2024-01-11T11:20:00Z",
+    "status": "in-progress",
+    "candidateCount": 5
+  }
+]

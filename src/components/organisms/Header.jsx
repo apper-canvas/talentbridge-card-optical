@@ -1,9 +1,9 @@
-import { useState } from "react";
-import { NavLink } from "react-router-dom";
-import Button from "@/components/atoms/Button";
+import React, { useContext, useState } from "react";
+import { NavLink, useNavigate } from "react-router-dom";
+import { AuthContext } from "../../App";
 import ApperIcon from "@/components/ApperIcon";
+import Button from "@/components/atoms/Button";
 import SearchBar from "@/components/molecules/SearchBar";
-import { useNavigate } from "react-router-dom";
 
 const Header = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -58,22 +58,30 @@ const Header = () => {
                 {item.label}
               </NavLink>
             ))}
-          </nav>
+</nav>
+
+          {/* Logout Button */}
+          <div className="flex items-center gap-2">
+            <LogoutButton />
+          </div>
 
           {/* Mobile Menu Button */}
-          <button
-            onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
-            className="lg:hidden p-2 rounded-md text-gray-400 hover:text-gray-500 hover:bg-gray-100 transition-colors duration-200"
-          >
-            <ApperIcon 
-              name={isMobileMenuOpen ? "X" : "Menu"} 
-              className="h-6 w-6" 
-            />
-          </button>
+          <div className="flex items-center lg:hidden">
+            <Button
+              variant="ghost"
+              size="sm"
+              onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+            >
+              <ApperIcon 
+                name={isMobileMenuOpen ? "X" : "Menu"} 
+                className="h-6 w-6" 
+              />
+            </Button>
+          </div>
         </div>
 
-        {/* Mobile Search Bar */}
-        <div className="md:hidden pb-4">
+        {/* Mobile Search */}
+        <div className="md:hidden px-4 pb-4">
           <SearchBar onSearch={handleSearch} />
         </div>
       </div>
@@ -99,11 +107,30 @@ const Header = () => {
                 {item.label}
               </NavLink>
             ))}
+            <div className="px-3 py-3">
+              <LogoutButton />
+            </div>
           </div>
         </div>
       )}
-    </header>
+</header>
   );
-};
+}
+
+function LogoutButton() {
+  const { logout } = useContext(AuthContext);
+  
+  return (
+    <Button
+      variant="outline"
+      size="sm"
+      onClick={logout}
+      className="flex items-center gap-2"
+    >
+      <ApperIcon name="LogOut" className="h-4 w-4" />
+      <span className="hidden sm:inline">Logout</span>
+    </Button>
+  );
+}
 
 export default Header;
